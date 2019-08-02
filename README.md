@@ -5,17 +5,17 @@
       2. Keep users listening to music on our platform
     - Need to identify:
       1. What are our most popular music pieces by different categories by played?
-        - Traditional: Song, Artist, Genre
-        - Meta Data: Song Length, Year Released, Years Artist Active (other)
+          - Traditional: Song, Artist, Genre
+          - Meta Data: Song Length, Year Released, Years Artist Active (other)
       2. What songs lead to users listening to the next song?
-        - Conjecture: I think I may be able to modify the use of a regular music recommendation engine (MRE) to identify which songs are most likely to
-        - An MRE looks to predict the next song a user will want to listen to; what songs tend to be the next song a user will listen to?
+          - Conjecture: I think I may be able to modify the use of a regular music recommendation engine (MRE) to identify which songs are most likely to
+          - An MRE looks to predict the next song a user will want to listen to; what songs tend to be the next song a user will listen to?
 
   - Goals:
     - Visualize which songs users are listening to, broken down by category
     - Determine initial presumption based off of EDA
     - Build MRE and use the model to determine identity of most connected songs
-    - Visualize most connected songs* (Plotly) using web using a web app (Flask/Dash)
+    - Visualize most connected songs* (Plotly) using a web app (Flask/Dash)
       * Not sure if songs will be the correct category to web; will be determined by strongest category connection
 
   - Process Goals:
