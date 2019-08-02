@@ -15,9 +15,12 @@
     - Visualize which songs users are listening to, broken down by category
     - Determine initial presumption based off of EDA
     - Build MRE and use the model to determine identity of most connected songs
-    - Visualize most connected songs* using web
-      * Not sure if songs will be the correct category to web; will be determined by strongest category connectino
+    - Visualize most connected songs* (Plotly) using web using a web app (Flask/Dash)
+      * Not sure if songs will be the correct category to web; will be determined by strongest category connection
 
   - Process Goals:
     - Refresh knowledge of classic recommendation engine
       - Build Jupyter notebook explaining my findings
+
+  - Dataset:
+    - https://www.kaggle.com/c/msdchallenge/
